@@ -1,0 +1,27 @@
+# Ignore specific file types
+*.md
+*.sh
+*.yml
+*.svg
+*.gif
+*.log
+.DS_Store
+CNAME
+AUTHORS
+LICENSE
+
+# Ignore compiled files
+node_modules/
+es/
+lib/
+dist/
+coverage/
+*.min.js
+*.min.css
+
+# Ignore lock files
+yarn.lock
+package-lock.json
+
+# Ignore logs
+*.log
