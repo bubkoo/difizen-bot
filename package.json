@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "A GitHub App for difizen group",
-  "homepage": "https://github.com/difizen/bot",
-  "bugs": "https://github.com/difizen/bot/issues",
-  "repository": "https://github.com/difizen/bot.git",
+  "homepage": "https://github.com/bubkoo/difizen-bot",
+  "bugs": "https://github.com/bubkoo/difizen-bot/issues",
+  "repository": "https://github.com/bubkoo/difizen-bot.git",
   "license": "MIT",
   "author": {
     "name": "bubkooo",
