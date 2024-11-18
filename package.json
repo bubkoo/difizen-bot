@@ -3,28 +3,23 @@
   "version": "1.0.0",
   "private": true,
   "description": "A GitHub App for difizen group",
-  "scripts": {
-    "clean": "rimraf lib",
-    "lint": "eslint 'src/**/*.{js,ts}?(x)' --fix",
-    "build": "tsc --outDir ./lib",
-    "build:watch": "run-s 'build -- -w'",
-    "dev": "nodemon --exec \"npm start\"",
-    "start": "probot run ./lib/index.js",
-    "prebuild": "run-s clean"
-  },
-  "lint-staged": {
-    "**/*.{js,jsx,tsx,ts,less,md,json}": [
-      "pretty-quick —-staged"
-    ],
-    "*.ts": [
-      "eslint --fix"
-    ]
-  },
+  "homepage": "https://github.com/difizen/bot",
+  "bugs": "https://github.com/difizen/bot/issues",
+  "repository": "https://github.com/difizen/bot.git",
+  "license": "MIT",
   "author": {
     "name": "bubkooo",
     "email": "bubkoo.wy@gmail.com"
   },
-  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf lib",
+    "lint": "eslint 'src/**/*.{js,ts}?(x)' --fix",
+    "prebuild": "run-s clean",
+    "build": "tsc --outDir ./lib",
+    "build:watch": "run-s 'build -- -w'",
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./lib/index.js"
+  },
   "dependencies": {
     "gemoji": "6.1.0",
     "js-yaml": "^4.1.0",
@@ -54,8 +49,5 @@
   },
   "engines": {
     "node": ">= 20"
-  },
-  "repository": "https://github.com/difizen/bot.git",
-  "homepage": "https://github.com/difizen/bot",
-  "bugs": "https://github.com/difizen/bot/issues"
+  }
 }
